@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="customAttr">
+        <attr name="titleColor" format="color" />
+        <attr name="subtitleColor" format="color" />
+        <attr name="globalDataBgColor" format="color" />
+        <attr name="globalDataTextColor" format="color" />
+    </declare-styleable>
+</resources>

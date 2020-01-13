@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--general colors-->
+    <color name="colorPrimary">#001828</color>
+    <color name="colorPrimaryDark">#001220</color>
+    <color name="colorSecondary">#001C2E</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPositive">#1F7515</color>
+    <!--dark theme colors-->
+    <color name="bgDark">#031d2d</color>
+    <color name="white">#ffffff</color>
+    <color name="dark_gray">#aaaaaa</color>
+    <!--light theme colors-->
+    <color name="bgLight">#f4f4f4</color>
+    <color name="darkest_gray">#333333</color>
+    <color name="darker_gray">#666666</color>
+</resources>

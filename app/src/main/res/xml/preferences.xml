@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings">
+
+    <PreferenceCategory android:title="Theme">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/nightmode_key"
+            android:summary="@string/nightmode_summary"
+            android:textColor="?attr/titleColor"
+            android:title="@string/nightmode" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Crypto Listing">
+
+        <ListPreference
+            android:defaultValue="@string/currency_default"
+            android:entries="@array/currency"
+            android:entryValues="@array/currency"
+            android:key="@string/currency_key"
+            android:summary="@string/currency_summary"
+            android:title="@string/currency" />
+
+        <EditTextPreference
+            android:defaultValue="@string/limit_default"
+            android:dialogTitle="@string/limit_title"
+            android:inputType="number"
+            android:key="@string/limit_key"
+            android:selectAllOnFocus="true"
+            android:summary="@string/limit_summary"
+            android:title="@string/limit_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

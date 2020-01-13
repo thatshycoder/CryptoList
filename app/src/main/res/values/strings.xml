@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CryptoList</string>
+    <string name="refresh_menu">Refresh</string>
+    <string name="settings">Settings</string>
+
+    <string name="percentage">%1$s%%</string>
+    <string name="active">Active</string>
+    <string name="crypto">Cryptocurrencies</string>
+    <string name="active_market">Active Markets</string>
+    <string name="marketcap">Market Cap: %1$s </string>
+    <string name="volume">Volume(24h): %1$s </string>
+
+    <!--nightmode settings strings-->
+    <string name="nightmode">Night Mode</string>
+    <string name="nightmode_key" translatable="false">night_mode</string>
+    <string name="nightmode_summary">Switch to Night Mode</string>
+
+    <!--limit settings string-->
+    <string name="limit_title">Number of Coins to Show</string>
+    <string name="limit_key" translatable="false">numbers_to_list</string>
+    <string name="limit_summary">Select the limit of coins to display</string>
+    <string name="limit_default">5</string>
+
+    <!--currency settings strings-->
+    <string name="currency">Currency</string>
+    <string name="currency_key" translatable="false">currency_key</string>
+    <string name="currency_summary">Change default currency</string>
+    <string name="currency_default">USD</string>
+
+</resources>

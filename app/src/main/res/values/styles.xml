@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Dark application theme. -->
+    <style name="mDarkTheme" parent="AppTheme">
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+        <item name="titleColor">@color/white</item>
+        <item name="subtitleColor">@color/dark_gray</item>
+        <item name="android:windowBackground">@color/bgDark</item>
+        <item name="android:colorBackground">@color/bgDark</item>
+        <!-- <item name="android:textColorPrimary">@color/bgLight</item>
+         <item name="android:textColorSecondary">@color/dark_gray</item>-->
+        <item name="globalDataBgColor">@color/colorSecondary</item>
+        <item name="globalDataTextColor">@color/dark_gray</item>
+    </style>
+
+    <!--Light theme-->
+    <style name="mLightTheme" parent="AppTheme">
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+        <item name="titleColor">@color/darkest_gray</item>
+        <item name="subtitleColor">@color/darker_gray</item>
+        <item name="android:windowBackground">@color/bgLight</item>
+        <item name="android:colorBackground">@color/bgLight</item>
+        <item name="globalDataBgColor">@color/colorPrimary</item>
+        <item name="globalDataTextColor">@color/dark_gray</item>
+    </style>
+
+    <style name="PreferenceTheme" parent="PreferenceThemeOverlay">
+        <item name="android:textColorPrimary">?attr/titleColor</item>
+        <item name="android:textColorSecondary">?attr/subtitleColor</item>
+    </style>
+
+</resources>
